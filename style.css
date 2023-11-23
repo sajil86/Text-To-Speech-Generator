@@ -7,7 +7,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(78, 78, 78), #575757);
+    background: linear-gradient(45deg, rgb(0, 0, 0), #575757);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,6 +23,7 @@
 .hero h1 span{
     color: #29d4ff;
 }
+
 textarea{
     width: 600px;
     height: 250px;
@@ -46,7 +47,7 @@ textarea::placeholder{
     gap: 20px;
 }
 button{
-    background: #ff2963;
+    background: #29d4ff;
     color: #fff;
     font-size: 16px;
     padding: 10px 30px;
@@ -61,6 +62,7 @@ button img{
     width: 16px;
     margin-right: 10px;
 }
+
 select{
     flex: 1;
     color:#000000 ;
